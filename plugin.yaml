@@ -1,0 +1,6 @@
+plugin:
+    name: 'voilaah.restapi::lang.plugin.name'
+    description: 'voilaah.restapi::lang.plugin.description'
+    author: Voilaah
+    icon: oc-icon-magic
+    homepage: ''

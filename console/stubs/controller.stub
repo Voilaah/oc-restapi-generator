@@ -1,0 +1,25 @@
+<?php namespace {{studly_author}}\{{studly_plugin}}\Http\Api;
+
+use Backend\Classes\Controller;
+use Voilaah\RestApi\Interfaces\ResourceInterface;
+
+/**
+ * {{title_name}} Back-end Controller
+ */
+class {{studly_name}} extends Controller implements ResourceInterface
+{
+    public $implement = [
+        'Voilaah.RestApi.Behaviors.RestController'
+    ];
+
+    public $restConfig = 'config_rest.yaml';
+
+    /**
+     * Return the resource name used by the controller
+     * @return mixed
+     */
+    public function getResourceName() {
+        return '{{lower_name}}';
+    }
+
+}

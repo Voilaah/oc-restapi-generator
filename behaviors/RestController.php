@@ -20,9 +20,9 @@ use ValidationException;
  *
  * In the model class definition:
  *
- *   public $implement = ['Mohsin.Rest.Behaviors.RestController'];
+ *   public $implement = ['Voilaah.RestApi.Behaviors.RestController'];
  *
- * @author Saifur Rahman Mohsin
+ * @author Chris
  */
 class RestController extends ControllerBehavior
 {
